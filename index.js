@@ -1,7 +1,7 @@
 import express from 'express';
 import dotenv from 'dotenv';
 import { logger } from './middlewares/logger.middleware.js';
-import { notFound } from './middlewares/notfound.middleware.js';
+import { notFound } from './middlewares/notFound.middleware.js';
 import userRoutes from './routes/user.routes.js';
 import vehicleRoutes from './routes/vechicle.routes.js';
  import analyticsRoutes from './routes/analytics.routes.js';
